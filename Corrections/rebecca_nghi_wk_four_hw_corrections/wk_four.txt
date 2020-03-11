@@ -1,0 +1,111 @@
+1.)Loops are good for
+     A. working with arrays
+     B. to run the same task repeatdetley with different values
+
+2.) complex syntax-  for(initialization; condition; final-expression) {
+    statement
+}
+    basic syntax-for (step 1; step 2; step 3) {
+    // code block to be executed
+}     
+
+3.) a loop that goes through a block of code a certain amount of times. 
+
+4.) for (let i = 10; i > 20; i++){
+    console.log ('Good to Go');
+}
+ i is the variable that is equal to 10 as the function. However, this will only
+ remain true,work if the vaule of i is less than 20. The i++ is increments of 1.
+ If I is greater than 3 than the condition will print Good to go, as a true 
+ statement. 
+
+
+5.) they are curly bracket aka {}
+
+6.) After the for loop has been excuted it returns to defining the condition; 
+if the value is true or false it either executes or terminates. If there is no 
+condition, that it is automatically assumed as true.  
+
+7.) for and break
+        for (let i = 10; i < 30; i--) {
+            if (i < 50) {
+                console.log('I work'); 
+           break; }
+        }  
+
+
+8.) for and continue 
+
+    for (let i = 50; i > 26; i++) {
+        if ( i < 70 ) {
+            console.log('good');    
+        continue; }
+    }    
+
+
+
+9.) let animals = ["dog", "cat", "lion"];
+
+10.) let dogs = [{
+        color:'brown';,
+        eyes: 'blind';
+        age: 2;
+}]
+
+11.)  let house = ['door', 'window', 'bottle']
+            for (i = 0; i < 3; i++){
+                if (i < 5)
+                console.log(open);};
+         
+            
+
+12.  var loop = {
+    color:'blue',
+    bodypart: 'knee'
+    };
+
+    for (let hip in loop ){
+         console.log(hip); 
+        console.log (loop [hip]);
+    } 
+
+for the for in function, this allows for an interation through object 
+properties. This works by a value to be catogorized for each object property. 
+In this case 'loop' is the object with the variable 'hip' that is a assigned 
+to a new property each time the loop is executed. Then 'loop' is getting each
+property; with 'hip' being in the bracket notation that is transferred into the 
+actual object property.   
+
+
+13. var person = ['jump', 'up']; 
+        for (var bounce of person ){
+            console.log(bounce);
+        } 
+
+for the for of loop iterates through a collection or an array. In this 
+case the array or the collection is var hop = ('jump', 'up');. Here the 
+variable name is 'bounce' with the name of the collection being person. Then
+console.log (bounce); individually targets each object in the array/collection.
+
+
+
+14. for in - goes through the properties of an object in the array, but not the object itself.
+    for of - can acess the property vaules in the arrays 
+
+15. do while loop
+
+var text = "";
+var i = 2;
+
+do{
+    text + i="The number is"+ i;
+    i++;
+    console.log(i);
+}
+while (i > 10);
+
+16. a loop terminates through the break function. This will make the function stop after 
+a certain increment is reached. However, it mainly terminates when the statment is no 
+longer deemed true. 
+
+

@@ -1,0 +1,73 @@
+
+2. When adding in
+
+    const btnadd = document.getElementById("add");
+        btnadd.addEventListener("click", addnums);
+
+ this new lines of code allow for an eventto occur where the javascript 
+ listens for a click event from the HTML. To break it down it first starts
+ at const btnadd, const is the funcition and btn is the button with the button 
+ id of add; btnadd is the varible. Then document.getElementById is the DOM grabbing
+ the information from the id of 'add'. The second portion of code here is the varible
+ of btnadd with the addEventListener; which listens for a click event from 
+ the addnums function of the .js code.         
+    
+
+3. refrenced function- named function that can be refered to later
+
+
+invoked function - when the code inside a function is carried out
+
+var great = 'Nick';
+    function no (thumbsdown)
+    {alert ('Great Job');}
+
+
+4. named function- a declared function that looks like a statement
+    funcition subtract (v, g){
+        return v - g;
+    }
+        subtract (6,3);
+
+
+function expression - a function that is made insdie another syntax construct
+var hi = green (m, b) {
+    m = 4;
+    b = 9;
+    return m + b;
+ }  
+
+5.) arrow function- allow for a shorter function syntax
+const b =( ) => { 
+let x = 'joe ';
+return x;
+};
+
+named function - a function declared as if it was stated.
+var go ='jump';
+
+Annonymous function- a function w/o a name
+var x = '62';
+
+6. 
+
+7. window.location.reload means that the current page is to be refreshed and reload the document on view
+
+8. in order to inalize a local git repository, you must first know where you are in the directory by using 
+the pwd command. This command will tell you where you are in your directory. If you are not in the right directory 
+you can change where you are by using the cd command. 
+
+Now to push it to git hub, you must first use the git init command the intalizes a local git repository. Next the git 
+status command will tell you what is already in your repository that would need to be added via the git add command. In this 
+case gitadd nameoffile or git add name offfolder would allow for files/folders to be added on thier own.  To then link  these
+files/folders from the local repository to the remote repository you would use the command git remote add orgin 
+remoterepositoryurl; this will pull from the computer's local repository. An alternate option is to use the 
+command of git u orgin. This will allow for an easier process of pulling repositories from the computer to GitHub itself. 
+Another option would be to use git fetch, then git merge from remote to local repository.  
+
+
+
+9. The hidden folder is the .git folder which is a comfirmation that lets you know that the local repository has been inalized.
+
+10. master branch represents the inalized local Git project folder. To check for this you would go into the ternimal window, then use the pwd command
+to see if the master branch is there. 
