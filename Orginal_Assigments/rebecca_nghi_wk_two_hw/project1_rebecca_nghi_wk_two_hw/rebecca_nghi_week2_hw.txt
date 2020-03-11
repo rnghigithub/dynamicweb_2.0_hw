@@ -1,0 +1,55 @@
+Rebecca Nghi Week 2 Hw
+Part 2
+    1. In the addnums form the Javascript is creating an add function to the form html tag. This works by declaring the id 
+    from the oneclick classfication in the html via the constant tag. In this case the const tag is a varible that is refered 
+    to a value. Then it would equal to the vaule of the arrow function;anonymous function. 
+
+    Now going into the local scope function, the first and second line of this section, specifically target the individual id tags via 
+    the 'document.getElementById' aka the DOM. This allows for a path that connects back the HTML. The third line slighty differs because 
+    of the let sum decleration. This is where the addtion operator occurs via the parseInt() tag with the '+'; within this the parseInt() 
+    has a interger/string with a range/radix. Lastly the DOM method is used to showcase the result of the form/fuction in the html, that was 
+    decleared from an arthemtic operator.                   
+
+    2a. hipost/open_popup INVALID  can not be used based on ECMAScript 6 / Unicode 8.0.0 due to forward slash 
+     b. data36_opi VALID -  in the format used for CMAScript 6 / Unicode 8.0.0 via a underscore and accepted 
+     letters/numbers
+     c. !56kle- INVALID - can not be used because there is a special character not accepted,not in the format used by 
+     CMAScript 6 / Unicode 8.0.0
+
+    3. var go ="green";
+       { var go ="blue"; }
+       console.log(go)
+
+       result:blue 
+       Var succesfully reassigned.
+
+    
+       let c = "9";
+       {let c = "-9p";}
+       console.log(c)
+
+       result: 9
+       let cannot be reassigned
+       
+       const flick = "yellow";
+       {const flick = "blue";}
+       console.log(flick)
+
+       result:yellow
+       const cannot be reassigned
+
+    4. Variable Global Scope - parts of the code that are outside the function, and can be seen easily across the board.
+        ex. 
+        var go = "green";
+        const color = () =>{
+        let green1 = "start";   
+       }
+
+
+       Variable Local Scope - parts of the code that are inside the function, only acessible within such. Only existable 
+       in the block scope its in.   
+        ex.
+        const digits = ()=>{
+         var digitA = "3"
+         let otheroption = "alpha"
+        }
